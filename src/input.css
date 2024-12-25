@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;    
 
+
+.gradient-text {
+    @apply bg-gradient-to-b from-[#9E327B] to-[#5B2A7E] bg-clip-text text-transparent;
+  }

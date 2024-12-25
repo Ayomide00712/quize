@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'Odibee': ['Odibee Sans', 'cursive'],
+        'baloo': ['"Baloo 2"', 'cursive'],
       }
     },
   },
