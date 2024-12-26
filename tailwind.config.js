@@ -6,7 +6,11 @@ module.exports = {
       fontFamily: {
         'Odibee': ['Odibee Sans', 'cursive'],
         'baloo': ['"Baloo 2"', 'cursive'],
-      }
+      },
+      colors: {
+        'brown': '#A2327B',
+      },
+
     },
   },
   plugins: [],
