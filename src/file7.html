@@ -43,10 +43,27 @@
         >
           <i class="fa-solid fa-comment text-slate-100 text-xl"></i>
         </div>
-        <div class="flex items-center justify-center fixed inset-x-0 space-y-2 bottom-5  flex-col">
+        <div class="flex items-center justify-center fixed inset-x-0 space-y-2 bottom-10  flex-col">
             <button type="button" class="border w-64 py-2 mx-3 text-white rounded-lg bg-brown">Try Again</button>
             <button type="button" class="border w-64 py-2 mx-3  rounded-lg border-brown">See your points</button>
           </div>
     </div>
+
+    <div class="absolute bottom-0 inset-x-0 flex items-center justify-center cursor-pointer mt-10">
+
+      <button onclick="goToPage2()" class="border bg-brown text-white px-2 rounded-xl">next</button>
+      <button onclick="goBack()" class="border bg-brown text-white px-2 rounded-xl"> back </button>
+     </div>
+   
+   
+       <script>
+           function goToPage2() {
+               window.location.href = 'file8.html';
+           }
+   
+           function goBack() {
+               window.history.back();
+           }
+           </script>
 </body>
 </html>

@@ -78,5 +78,22 @@
         </div>
       </div>
     </div>
+
+    <div class="relative bottom-0 inset-x-0 flex items-center justify-center cursor-pointer mt-5">
+
+      <button onclick="goToPage2()" class="border bg-brown text-white px-2 rounded-xl">next</button>
+      <button onclick="goBack()" class="border bg-brown text-white px-2 rounded-xl"> back </button>
+     </div>
+   
+   
+       <script>
+           function goToPage2() {
+               window.location.href = 'file5.html';
+           }
+   
+           function goBack() {
+               window.history.back();
+           }
+           </script>
   </body>
 </html>
